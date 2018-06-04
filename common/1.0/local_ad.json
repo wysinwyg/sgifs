@@ -1,0 +1,21 @@
+{
+	local_ads:[{
+		title:"My APK",
+		desc:"Your new useful tool to backup, sharing apks",
+		url: "https://f46s2.app.goo.gl/LmFN",
+		icon:"https://1.bp.blogspot.com/-mMZ-91gx07w/WqCuzVq5zOI/AAAAAAAAJEA/iu6QLNg387cyi2zuDdQYnfFCAxV4cTMsACLcBGAs/s320/logo_content.png",
+		weight: 200,
+		pkg_name:"com.andatsoft.myapk.fwa",
+		action_name:"Install"
+	},
+	{
+		title:"Silax HD Wallpapers",
+		desc:"Make your home screen great again!",
+		url: "https://f46s2.app.goo.gl/Vcf5",
+		icon:"https://4.bp.blogspot.com/-vTQ-fhBITJ4/WqDAXnHQqgI/AAAAAAAAJEQ/82SSefPJR-EGfrIU3wPSai0uRv0TaX3pgCLcBGAs/s320/logo_content_small.png",
+		weight: 200,
+		pkg_name:"com.andatsoft.app.silax",
+		action_name:"Install"
+	}
+	]
+}

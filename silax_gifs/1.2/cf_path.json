@@ -1,0 +1,85 @@
+{
+  giphy_trending: {
+    post_list: "$.data",
+    post: {
+      id: "id",
+      title: "title",
+      desc: "",
+      source: "url",
+	  thumbSmall: "images.thumb_images.342x270",
+	  thumbMedium: "images.thumb_images.342x270",
+	  thumbBig: "images.source_url",
+	  dateFormat: "L10",
+	  createdDate: "created_date",
+	  updatedDate: "",
+	  gif_preview:"images.fixed_width_small",
+	  gif_preview_detail:{
+		id:"",
+		url:"url",
+		width:"width",
+		height:"height"
+	  },
+	  gif_original:"images.original",
+	  gif_original_detail:{
+		id:"",
+		url:"webp",
+		width:"width",
+		height:"height"
+	  },
+	  gif_mp4:"images.original",
+	  gif_mp4_detail:{
+		id:"",
+		url:"mp4",
+		width:"width",
+		height:"height"
+	  }
+    },
+	detail: "$.data.post_content"
+  },
+  giphy_topic: {
+    post_list: "$.data",
+    post: {
+      id: "name_encoded",
+      title: "name",
+      desc: "",
+      source: "",
+	  thumbSmall: "",
+	  thumbMedium: "",
+	  thumbBig: "",
+	  dateFormat: "",
+	  createdDate: "",
+	  updatedDate: "",
+	  gif_preview:"gif.images.fixed_width_small",
+	  gif_preview_detail:{
+		id:"",
+		url:"url",
+		width:"width",
+		height:"height"
+	  }
+    },
+	detail: "$.data.post_content"
+  },
+  giphy_topic_gif: {
+    post_list: "$.data",
+    post: {
+      id: "name_encoded",
+      title: "name",
+      desc: "",
+      source: "",
+	  thumbSmall: "",
+	  thumbMedium: "",
+	  thumbBig: "",
+	  dateFormat: "",
+	  createdDate: "",
+	  updatedDate: "",
+	  gif_preview:"gif.images.fixed_width_small",
+	  gif_preview_detail:{
+		id:"",
+		url:"url",
+		width:"width",
+		height:"height"
+	  }
+    },
+	detail: "$.data.post_content"
+  }
+}

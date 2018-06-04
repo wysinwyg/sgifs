@@ -1,0 +1,178 @@
+{
+  nav_items: [
+  {
+      name: "f_search",
+      type: 0,
+      use_char_icon: true,
+	  res_icon_name: "",
+      provider_cf: [
+        {
+		  provider_id:"f_search",
+		  pid:"giphy_trending",
+		  group_id:"f_search",
+          url: "https://api.giphy.com/v1/gifs/search?&limit=30&",
+		  param_funcs: {
+            q: "pb_keyword",
+			api_key:"randomOf_0Jkrpgo4FgAynA8uRu517keVhbTOyuVT"
+          },
+		  page_var:"offset",
+		  page_type: "offset,30",
+		  detail_url: ""
+        }
+      ]
+    },
+    {
+      name: "Trending",
+      type: 20,
+      use_char_icon: true,
+	  res_icon_name: "ic_trending",
+      provider_cf: [
+        {
+		  provider_id:"giphy_trending",
+		  pid:"giphy_trending",
+		  group_id:"trending",
+          url: "https://api.giphy.com/v1/gifs/trending?api_key=0Jkrpgo4FgAynA8uRu517keVhbTOyuVT&limit=30&rating=G",
+		  page_var:"offset",
+		  page_type: "offset,30",
+		  detail_url: ""
+        }
+      ]
+    },
+	{
+      name: "Reactions",
+      type: 25,
+      use_char_icon: true,
+	  res_icon_name: "ic_reactions",
+      provider_cf: [
+        {
+		  provider_id:"reactions",
+		  pid:"giphy_topic_gif",
+		  group_id:"reactions",
+          url: "https://api.giphy.com/v1/gifs/categories/reactions?api_key=0Jkrpgo4FgAynA8uRu517keVhbTOyuVT&limit=30&rating=G",
+		  page_var:"",
+		  page_type: "fixed",
+		  detail_url: ""
+        }
+      ]
+    },
+	{
+      name: "Actions",
+      type: 25,
+      use_char_icon: true,
+	  res_icon_name: "ic_actions",
+      provider_cf: [
+        {
+		  provider_id:"actions",
+		  pid:"giphy_topic_gif",
+		  group_id:"actions",
+          url: "https://api.giphy.com/v1/gifs/categories/actions?api_key=0Jkrpgo4FgAynA8uRu517keVhbTOyuVT&limit=30&rating=G",
+		  page_var:"",
+		  page_type: "fixed",
+		  detail_url: ""
+        }
+      ]
+    },
+	{
+      name: "Emotions",
+      type: 25,
+      use_char_icon: true,
+	  res_icon_name: "ic_emotions",
+      provider_cf: [
+        {
+		  provider_id:"emotions",
+		  pid:"giphy_topic_gif",
+		  group_id:"emotions",
+          url: "https://api.giphy.com/v1/gifs/categories/emotions?api_key=0Jkrpgo4FgAynA8uRu517keVhbTOyuVT&limit=30&rating=G",
+		  page_var:"",
+		  page_type: "fixed",
+		  detail_url: ""
+        }
+      ]
+    },
+	{
+      name: "Memes",
+      type: 25,
+      use_char_icon: true,
+	  res_icon_name: "ic_memes",
+      provider_cf: [
+        {
+		  provider_id:"memes",
+		  pid:"giphy_topic_gif",
+		  group_id:"memes",
+          url: "https://api.giphy.com/v1/gifs/categories/memes?api_key=0Jkrpgo4FgAynA8uRu517keVhbTOyuVT&limit=30&rating=G",
+		  page_var:"",
+		  page_type: "fixed",
+		  detail_url: ""
+        }
+      ]
+    },
+	{
+      name: "TV",
+      type: 25,
+      use_char_icon: true,
+	  res_icon_name: "ic_tv",
+      provider_cf: [
+        {
+		  provider_id:"tv",
+		  pid:"giphy_topic_gif",
+		  group_id:"tv",
+          url: "https://api.giphy.com/v1/gifs/categories/tv?api_key=0Jkrpgo4FgAynA8uRu517keVhbTOyuVT&limit=30&rating=G",
+		  page_var:"",
+		  page_type: "fixed",
+		  detail_url: ""
+        }
+      ]
+    },
+	{
+      name: "Animals",
+      type: 25,
+      use_char_icon: true,
+	  res_icon_name: "ic_animals",
+      provider_cf: [
+        {
+		  provider_id:"animals",
+		  pid:"giphy_topic_gif",
+		  group_id:"animals",
+          url: "https://api.giphy.com/v1/gifs/categories/animals?api_key=0Jkrpgo4FgAynA8uRu517keVhbTOyuVT&limit=30&rating=G",
+		  page_var:"",
+		  page_type: "fixed",
+		  detail_url: ""
+        }
+      ]
+    },
+	{
+      name: "Topics",
+      type: 25,
+      use_char_icon: true,
+	  res_icon_name: "ic_tags",
+      provider_cf: [
+        {
+		  provider_id:"topics",
+		  pid:"giphy_topic",
+		  group_id:"topics",
+          url: "https://api.giphy.com/v1/gifs/categories?api_key=0Jkrpgo4FgAynA8uRu517keVhbTOyuVT&limit=30&rating=G",
+		  page_var:"",
+		  page_type: "fixed",
+		  detail_url: ""
+        }
+      ]
+    },
+	{
+      name: "Stickers",
+      type: 20,
+      use_char_icon: true,
+	  res_icon_name: "ic_stickers",
+      provider_cf: [
+        {
+		  provider_id:"stickers",
+		  pid:"giphy_trending",
+		  group_id:"stickers",
+          url: "https://api.giphy.com/v1/stickers/trending?api_key=0Jkrpgo4FgAynA8uRu517keVhbTOyuVT&limit=30&rating=G",
+		  page_var:"offset",
+		  page_type: "offset,30",
+		  detail_url: ""
+        }
+      ]
+    }
+  ]
+}

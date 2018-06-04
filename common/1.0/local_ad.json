@@ -3,7 +3,7 @@
 		title:"My APK",
 		desc:"Your new useful tool to backup, sharing apks",
 		url: "https://f46s2.app.goo.gl/LmFN",
-		icon:"https://1.bp.blogspot.com/-mMZ-91gx07w/WqCuzVq5zOI/AAAAAAAAJEA/iu6QLNg387cyi2zuDdQYnfFCAxV4cTMsACLcBGAs/s320/logo_content.png",
+		icon:"https://3.bp.blogspot.com/-KXJn8VWtH_8/WxVckfa_oVI/AAAAAAAAJpw/2NkaJqtdRxcX4fch01DOmlmgCHkcnLzIQCLcBGAs/s320/logo_fill_black.jpg",
 		weight: 200,
 		pkg_name:"com.andatsoft.myapk.fwa",
 		action_name:"Install"
@@ -12,7 +12,7 @@
 		title:"Silax HD Wallpapers",
 		desc:"Make your home screen great again!",
 		url: "https://f46s2.app.goo.gl/Vcf5",
-		icon:"https://4.bp.blogspot.com/-vTQ-fhBITJ4/WqDAXnHQqgI/AAAAAAAAJEQ/82SSefPJR-EGfrIU3wPSai0uRv0TaX3pgCLcBGAs/s320/logo_content_small.png",
+		icon:"https://2.bp.blogspot.com/-OnCRuYgEneA/WxVci_8fn_I/AAAAAAAAJps/o64x-Cex2_MJ8aSos0ehnXlbhG8rsxa8wCLcBGAs/s320/logo_new_fill.jpg",
 		weight: 200,
 		pkg_name:"com.andatsoft.app.silax",
 		action_name:"Install"

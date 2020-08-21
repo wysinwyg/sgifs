@@ -23,6 +23,7 @@
 	  gif_original_detail:{
 		id:"",
 		url:"webp",
+		shareUrl:"url",
 		width:"width",
 		height:"height"
 	  },

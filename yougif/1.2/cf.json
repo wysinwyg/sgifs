@@ -90,16 +90,16 @@
       ]
     },
 	{
-      name: "Memes",
+      name: "Anime",
       type: 25,
       use_char_icon: true,
-	  res_icon_name: "ic_memes",
+	  res_icon_name: "ic_anime",
       provider_cf: [
         {
 		  provider_id:"memes",
 		  pid:"giphy_topic_gif",
 		  group_id:"memes",
-          url: "https://api.giphy.com/v1/gifs/categories/memes?api_key=0Jkrpgo4FgAynA8uRu517keVhbTOyuVT&limit=30&rating=G",
+          url: "https://api.giphy.com/v1/gifs/categories/anime?api_key=0Jkrpgo4FgAynA8uRu517keVhbTOyuVT&limit=30&rating=G",
 		  page_var:"",
 		  page_type: "fixed",
 		  detail_url: ""
